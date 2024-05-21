@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.search-container{
+  display: flex;
+  gap: 30px;
+}
+.search-container input{
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  border:none;
+}
+.student-details{
+  background-color: #363535;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.student-details p{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(180deg,#fff,lightsalmon);
+  color: #000;
+  font-weight: bolder;
+}
